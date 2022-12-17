@@ -1,0 +1,10 @@
+{
+  "java.project.sourcePaths": [
+    "projectperson",
+    "InputExamples",
+    "ExceptionHandling",
+    "RepetitionControls",
+    "Arrays",
+    "."
+  ]
+}

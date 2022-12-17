@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Information - Dashboard</title>
+</head>
+<body>
+    <!--LOGO-->
+    <a href="dashboard.html" class="logo"><img src="assets/logo.svg" alt="Student Information"></a>
+    <!--DASHBOARD TEXT-->
+    <p class="dashboard">DASHBOARD</p>
+
+    <div class="container">
+        <!--ADD/EDIT STUDENT LEFT-COLUMN-->
+        <div class="left-column">
+            <form action="" id="form" class="student-form">
+                <p class="stud-input">Add or Edit Student Information</p>
+
+                <div class ="input-number">
+                    <label for ="number">Student Number</label><br>
+                    <input type="number" name="number" id="studNum" placeholder="Enter student number" required>
+                </div>
+
+                <div class="user-name">
+                    <div class ="input-lname">
+                        <label for ="lname">Last Name</label><br>
+                        <input type="text" name="lname" id="lName" placeholder="Enter last name" required>
+                    </div>
+                    <div class ="input-fname">
+                        <label for ="fname">First Name</label><br>
+                        <input type="text" name="fname" id="fName" placeholder="Enter first name" required>
+                    </div>
+                    <div class ="input-initial">
+                        <label for ="initial">MI</label><br>
+                        <input type="text" name="initial" id="initial" placeholder="Enter MI">
+                    </div>   
+                </div>
+
+                <div class="user-asg">
+                    <div class ="input-age">
+                        <label for ="age">Age</label><br>
+                        <input type="text" name="age" id="age" placeholder="Enter age" required>
+                    </div>
+                    <div class ="input-yearSection">
+                        <label for ="yearSection">Year & Section</label><br>
+                        <input type="l" name="yearSection" id="yearSection" placeholder="Enter year and section" required>
+                    </div>
+                    <div class ="select-sex">
+                        <div class="sex">
+                            <span class="sex-title">Sex:</span><br>
+                            <input type="radio" id="male" name="sex" value="Male">
+                            <label for="html">Male</label>
+                            <input type="radio" id="female" name="sex" value="Female">
+                            <label for="html">Female</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="user-course">
+                    <label for ="course">Course</label><br>
+                    <select  name="course" id="course" required>
+                        <option value="Bachelor of Science in Information Technology">Bachelor of Science in Information Technology</option>
+                        <option value="Bachelor in Industrial Technology">Bachelor in Industrial Technology</option>
+                    </select>    
+                </div>
+                <div class="form-btn">
+                    <input type="reset" value="CANCEL" class="cancel-btn" id="btn">
+                    <input type="button" value="ADD OR EDIT STUDENT" class="add-btn" id="btn" onclick="Add()"> 
+                </div>
+            </form>
+        </div>
+        <!--TABLE VIEW RIGHT COLUMN-->
+        <div class="right-column">
+            <!--TABLE-->
+            <div class="tableview" style="overflow-x:auto;" style="overflow-y:auto;">
+                <table class="studentList" id="table" >
+                    <thead>
+                        <tr>
+                            <th>Student Number</th>
+                            <th>Last Name</th>
+                            <th>First Name</th>
+                            <th>MI</th>
+                            <th>Age</th>
+                            <th>Sex</th>
+                            <th>Year & Section</th>
+                            <th>Course</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*BACKGROUND*/
+html {
+    background: url(assets/bg.svg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+/*LOGO*/
+.logo img {
+    position: relative;
+    width: 280px;
+    height: 100px;
+    left: 1em;
+    top: 1em;
+}
+
+/*DASHBOARD TEXT*/
+.dashboard {
+    margin: 0% auto 0% auto;
+    color: #B84823;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-shadow: 3px 1px 1px rgba(253, 178, 70, 1);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+/**************************** LEFT-COLUMN ****************************/
+form {
+    position: relative;
+    width: max-content;
+    height: max-content;
+    margin: 0% auto 0% auto;
+}
+
+.stud-input {
+    color: #B84823;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-left: 0.8em;
+}
+
+#studNum, #lName, #fName, #initial, #age, #yearSection, #course{
+    height: 25px;
+    width: 200px;
+    outline: none;
+    border-radius: 10px;
+    border: 3px solid #B84823;
+    padding-left: 18px;
+}
+
+#age {
+    width: 100px;
+}
+
+#initial {
+    width: 140px;
+}
+
+#course {
+    height: 33px;
+    width: 400px;
+}
+/* for icon */
+#studNum {
+    background: url(assets/ic_hash.svg) no-repeat;
+    background-position: 4px 1px;
+    background-size: 18px;
+    padding-left: 30px;
+}
+
+#lName, #fName, #initial {
+    background: url(assets/ic_person.svg) no-repeat;
+    background-position: 4px 4px;
+    background-size: 20px;
+    padding-left: 30px;
+}
+
+.input-number {
+    padding-left: 1em;    
+}
+
+.user-name {
+    display: flex;
+}
+
+.user-asg {
+    display: flex;  
+}
+
+.select-sex {
+    display: flex;
+}
+
+.sex {
+    display: inline;
+}
+
+.select-sex label, .sex-title, .select-sex input {
+    padding-right: 1em;
+    padding-left: 0.2em;
+    cursor: pointer;
+}
+
+.input-lname, .input-fname, .input-initial, .input-age, .input-yearSection, .select-sex, .user-course {
+    padding: 1em;
+}
+
+
+/**************************** RIGHT-COLUMN ****************************/
+
+/*SEARCHBAR & BUTTON*/
+.searchbar {
+    display: inline-flex;
+    margin-top: 0.5%;
+}
+
+.search-input {
+    position: relative;
+    margin: 0% 0% 0% auto;
+    width: 304px;
+    height: 30px;
+    border: none;
+    padding: 0.5em;
+    border-radius: 1em 0em 0em 1em;
+    background: #ffffff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: solid rgba(253, 178, 70, 0.5);
+}
+.search-input:focus {
+    outline: solid #FDB246;
+}
+
+.srch-btn {
+    position: relative;
+    margin: 0% auto 0% 0.3%;
+    width: 45px;
+    height: 45px;
+    border: none;
+    padding: 0.5em;
+    border-radius: 0em 1em 1em 0em;
+    outline: solid rgba(253, 178, 70, 0.5);
+    background: #ffffff url("assets/search.svg") no-repeat right 0.8em center;
+    cursor: pointer;
+}
+
+.srch-btn:hover {
+    outline: solid #FDB246;
+    background: url("assets/search.svg") no-repeat right 0.8em center;
+}
+
+/*TABLE*/
+.tableview {
+    position: relative;
+    width: fit-content;
+    margin: 1.5% 0% 0% 0%;
+}
+
+.studentList {
+    margin: 0% auto 0% auto;
+    border-collapse: collapse;
+    font-size: 0.7em;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.studentList thead tr {
+    background-color: #B84823;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+}
+
+.studentList th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.studentList tbody tr {
+    border-bottom: 1px solid rgba(184, 72, 35, 0.5);
+}
+
+.studentList tbody tr:nth-of-type(even) {
+    background-color: rgba(184, 72, 35, 0.1);
+}
+
+.studentList tbody tr:last-of-type {
+    border-bottom: 2px solid #B84823;
+}
+
+/**************************** BUTTONS ****************************/
+
+/* EDIT BUTTON */
+.edit-btn {
+    width: 80px;
+    color: #ffffff;
+    border: none;
+    border-radius: 1em;
+    padding: 0.7em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    background: #E7884B;
+    transition: background .3s;
+    cursor: pointer;
+}
+
+/*DELETE BUTTON */
+.delete-btn {
+    width: 80px;
+    color: #E7884B;
+    font-weight: 550;
+    background: none;
+    border: 3px solid #E7884B;
+    border-radius: 1em;
+    padding: 0.6em;
+    transition: border .3s;
+    cursor: pointer;
+}
+
+/*ADD NEW STUDENT BUTTON*/
+
+.add-btn, .cancel-btn {
+    float: right;
+    width: 200px;
+    color: #ffffff;
+    border: none;
+    border-radius: 1.5em;
+    padding: 1em;
+    margin-top: 2em;
+    background: #E7884B;
+    transition: background .3s;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    width: 100px;
+    padding: 0.8em;
+    margin-left: 3em;
+    color: #B84823;
+    border: 3px solid #E7884B;
+    background: #ffffff;
+}
+
+.edit-btn:hover, .add-btn:hover {
+    background: linear-gradient(90deg, #B84823, #FDB246);
+    font-weight: bold;
+}
+
+.cancel-btn:hover {
+    background: linear-gradient(92.16deg, #FDFDFD -2.4%, #FDB246 79.32%);
+    color:#B84823;
+    font-weight: bold;
+}
+
+.delete-btn:hover{
+    border: 3px solid #B84823;
+    color: #B84823;
+    font-weight: bold;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <title> Pentagon - Log in </title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Poppins', sans-serif;
+                color: #fff;
+            }
+            body {
+                display: flex;
+                height: 100vh;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                background: #F5EFE6;
+                left: 550px;
+                position: absolute;
+            }
+            .container {
+                max-width: 1000px;
+                width: 100%;
+                background: linear-gradient(91.44deg,#03577A80 , #0CF87B80);
+                padding: 18px 20px;
+                border-radius: 5px;
+            } 
+            .container form .user-info {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            form .user-info .user-input {
+                margin: 10px 0 22px 0;
+                width: 340px;
+            }
+            .user-info .user-input label {
+                display: inline-flex;
+                font-weight: 500px;
+                margin-bottom: 5px;
+                margin-top: 10px;
+            }
+            .user-info .user-input input {
+                height: 30px;
+                width: 100%;
+                outline: none;
+                border-radius: 5px;
+                border: 1px solid #533E85;
+                padding-left: 10px;
+                font-size: 15px;
+                color:#533E85;
+            }
+            form .button {
+                height: 60px;
+                width: 120px;
+            }
+            form .button input{
+                outline: none;
+                color: #fff;
+                border: none;
+                padding: 4px 5px 28px 0;
+                font-size: 18px;
+                font-weight: 500px;
+                border-radius: 5px;
+                letter-spacing: 1px;
+                margin-top: 20px;
+                margin-left: 100px;
+                background: #F2F2F2
+            }
+            .user-input h1 {
+                margin-left: 100px;
+                margin-bottom: 10px;
+                font-size: 40px;
+                letter-spacing: 2px;
+            }
+            p {
+                margin: auto;
+                text-align: center;
+            }
+            .logo img {
+                position: absolute;
+                width: 310px;
+                height: 40px;
+                left: 50px;
+                top: 50px;
+            }
+            a:hover {
+                color: #533E85;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="topnav">
+                <a href="#" class="logo"><img src="assets/pentagon.svg" alt=""></a>
+            </div>
+            <form action="home.html" method="post">
+                <div class="user-info">
+                    <div class="user-input">
+                        <h1> Log in </h1>
+                        <label for="uname"><b>Email or Phone number:</b></label>
+                        <input type="email" name="uname" id="uname" placeholder="Enter your username" required>
+                        <label for="pword"><b>Password:</b></label>
+                        <input type="text" name="pword" id="pword" placeholder="Enter your password" required>
+                        <div class="button">
+                            <input type="submit" value="Log in">
+                        </div>
+                        <br>
+                        <p><a href="forgot.html" target="_self">Forgot password?</a></p>
+                        <p>or</p>
+                        <p><a href="registration.html" target="_self">Don't have an account? Register</a> </p>                          
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

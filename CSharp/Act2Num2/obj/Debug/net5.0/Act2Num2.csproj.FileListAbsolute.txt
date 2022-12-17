@@ -1,0 +1,16 @@
+D:\Codes\CSharp\Act2Num2\obj\Debug\net5.0\Act2Num2.csproj.AssemblyReference.cache
+D:\Codes\CSharp\Act2Num2\obj\Debug\net5.0\Act2Num2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\CSharp\Act2Num2\obj\Debug\net5.0\Act2Num2.AssemblyInfoInputs.cache
+D:\Codes\CSharp\Act2Num2\obj\Debug\net5.0\Act2Num2.AssemblyInfo.cs
+D:\Codes\CSharp\Act2Num2\obj\Debug\net5.0\Act2Num2.csproj.CoreCompileInputs.cache
+D:\Codes\CSharp\Act2Num2\bin\Debug\net5.0\Act2Num2.exe
+D:\Codes\CSharp\Act2Num2\bin\Debug\net5.0\Act2Num2.deps.json
+D:\Codes\CSharp\Act2Num2\bin\Debug\net5.0\Act2Num2.runtimeconfig.json
+D:\Codes\CSharp\Act2Num2\bin\Debug\net5.0\Act2Num2.runtimeconfig.dev.json
+D:\Codes\CSharp\Act2Num2\bin\Debug\net5.0\Act2Num2.dll
+D:\Codes\CSharp\Act2Num2\bin\Debug\net5.0\ref\Act2Num2.dll
+D:\Codes\CSharp\Act2Num2\bin\Debug\net5.0\Act2Num2.pdb
+D:\Codes\CSharp\Act2Num2\obj\Debug\net5.0\Act2Num2.dll
+D:\Codes\CSharp\Act2Num2\obj\Debug\net5.0\ref\Act2Num2.dll
+D:\Codes\CSharp\Act2Num2\obj\Debug\net5.0\Act2Num2.pdb
+D:\Codes\CSharp\Act2Num2\obj\Debug\net5.0\Act2Num2.genruntimeconfig.cache

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <title>Pentagon - Home</title>
+
+        <style>
+            body {
+                margin: 0;
+                font-family: 'Poppins', sans-serif;
+            }
+            .topnav {
+                position: relative;
+                overflow: hidden;
+            }
+            .logo img {
+                position: absolute;
+                width: 310px;
+                height: 40px;
+                left: 17px;
+                top: 22px;
+            }
+            .topnav a {
+                float: right;
+                color: #533E85;
+                text-align: right;
+                padding: 25px 35px;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 20px;
+                letter-spacing: 1.5px;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            .topnav a.active {
+                color: #488FB1;
+                font-weight: 600;
+            }
+            a:hover {
+				color: #488FB1;
+                font-weight: 600;
+			}
+
+            .search {
+                position: relative;
+                border: none;
+                padding: 0.8em;
+                border-radius: 1em;
+                background: #E5E5E5 url("assets/search.svg") no-repeat right 0.8em center;
+                width: 100%;
+                font-size: 15px;
+                font-family: 'Poppins', sans-serif;
+            }
+            .search:focus {
+                outline: solid #533E85;
+            }
+            .searchbar {
+                display: flex;
+                width: 500px;
+                height: 50px;
+                justify-content: space-between;
+                margin-top: 1em;
+                margin-left: 3em;
+            }
+            .button1, .button2, .button3, .button4 {
+                position: absolute;
+                left: 46px;
+                top: 165px;
+                width: 245px;
+                border: none;
+                padding: 0.8em;
+                background-color: #488FB1;
+                border-radius: 1em;
+                color: white;
+                text-transform: uppercase;
+                font-family: 'Poppins', sans-serif;
+                font-size: 15px;
+                transition: background .3s;
+                cursor: pointer;
+            }
+            .button2 {
+                left: 307px;
+            }
+            button:hover {
+                background-color: #533E85;
+            }
+
+            .offer {
+                position: absolute;
+                width: 1010px;
+                height: 230px;
+                left: 540px;
+                top: 55px;
+            }
+            .button3 {
+                left: 630px;
+                top: 205px;
+                width: 550px;
+                background-color: #533E85;
+            }
+            .button3:hover {
+                background: linear-gradient(-90deg, #C1F8CF, #4FD3C4);
+                color: #533E85;
+                font-weight: 600;
+                letter-spacing: 2px;
+            }
+
+            .items p {
+                position: absolute;
+                width: 187px;
+                height: 52px;
+                left: 46px;
+                top: 220px;
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 10px;
+                color: #533E85;
+            }
+            .item1, .item2, .item3, .item4 {
+                position: absolute;
+                width: 195.59px;
+                height: 268.94px;
+                left: 83px;
+                top: 290px;
+                cursor: pointer;
+            }
+            .item2 {
+                left: 330px;
+            }
+            .item3 {
+                top: 600px;
+            }
+            .item4 {
+                left: 330px;
+                top: 600px;
+            }
+            .item1:hover {
+                background: url("assets/item1trans.svg");
+            }
+            .item2:hover {
+                background: url("assets/item2trans.svg");
+            }
+            .item3:hover {
+                background: url("assets/item3trans.svg");
+            }
+
+            .rating {
+                position: absolute;
+                width: 799px;
+                height: 650px;
+                left: 610px;
+                top: 310px;
+            }
+            .quality, .material, .price, .durability, .aesthetics {
+                position: absolute;
+                left: 817px;
+                top: 715px;
+                accent-color: #533E85;
+                cursor: pointer;
+            }
+            .material {
+                top: 780px;
+            }
+            .price {
+                top: 850px;
+            }
+            .durability {
+                left: 1180px;
+                top: 715px;
+            }
+            .aesthetics {
+                left: 1180px;
+                top: 780px;
+            }
+            input[type="radio"]{
+                margin: 0 5px 0 7px;
+            }
+            
+            .button4 {
+                left: 1150px;
+                top: 900px;
+            }
+            .footer {
+                position: absolute;
+                bottom: 0;
+                top: 1000px;
+                width: 100%;
+                height: 300px;
+                color: white;
+                background-color: #424648;
+                text-align: center;
+                letter-spacing: 1.5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="topnav">
+            <a href="#" class="logo"><img src="assets/pentagon.svg" alt=""></a>
+            <nav>
+                <ul>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#" class="active">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="searchbar">
+            <input type="text" class="search">
+            <button type="button" class="button1">Categories</button>
+            <button type="button" class="button2">Live Selling</button>
+        </div>
+        <div class="specialoffer">
+            <img class="offer" src="assets/offer.svg" alt="">
+            <button type="button" class="button3">Shop Now</button>
+        </div>
+        <div class="items">
+            <p>Popular</p>
+            <img class="item1" src="assets/item1.svg" alt="">
+            <img class="item2" src="assets/item2.svg" alt="">
+            <img class="item3" src="assets/item3.svg" alt="">
+            <img class="item4" src="assets/item4.svg" alt="">
+        </div>
+        <div class="productrating">
+            <img class="rating" src="assets/rating.svg" alt="">
+            <form class="quality" action="">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+            </form>
+            <form class="material" action="">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+            </form>
+            <form class="price" action="">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+            </form>
+            <form class="durability" action="">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+            </form>
+            <form class="aesthetics" action="">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+                <input type="radio" name="opt">
+            </form>
+            <button class="button4" type="button">Submit Rating</button>
+        </div>
+        <div class="footer">
+            <footer>
+                <p>For educational purposes only.</p><br>
+                <p>by</p>
+                <p><strong>Danny Jay M. Flores</strong></p>
+                <p><strong>Jovie P. Senining</strong></p><br>
+                <p>IT 304 - Activity 3 (BSIT-3D)
+            </footer>  
+        </div>   
+    </body>
+</html>

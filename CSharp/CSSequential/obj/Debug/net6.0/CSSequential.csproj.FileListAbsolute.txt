@@ -1,0 +1,15 @@
+D:\Codes\CSharp\CSSequential\bin\Debug\net6.0\CSSequential.exe
+D:\Codes\CSharp\CSSequential\bin\Debug\net6.0\CSSequential.deps.json
+D:\Codes\CSharp\CSSequential\bin\Debug\net6.0\CSSequential.runtimeconfig.json
+D:\Codes\CSharp\CSSequential\bin\Debug\net6.0\CSSequential.dll
+D:\Codes\CSharp\CSSequential\bin\Debug\net6.0\ref\CSSequential.dll
+D:\Codes\CSharp\CSSequential\bin\Debug\net6.0\CSSequential.pdb
+D:\Codes\CSharp\CSSequential\obj\Debug\net6.0\CSSequential.csproj.AssemblyReference.cache
+D:\Codes\CSharp\CSSequential\obj\Debug\net6.0\CSSequential.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\CSharp\CSSequential\obj\Debug\net6.0\CSSequential.AssemblyInfoInputs.cache
+D:\Codes\CSharp\CSSequential\obj\Debug\net6.0\CSSequential.AssemblyInfo.cs
+D:\Codes\CSharp\CSSequential\obj\Debug\net6.0\CSSequential.csproj.CoreCompileInputs.cache
+D:\Codes\CSharp\CSSequential\obj\Debug\net6.0\CSSequential.dll
+D:\Codes\CSharp\CSSequential\obj\Debug\net6.0\ref\CSSequential.dll
+D:\Codes\CSharp\CSSequential\obj\Debug\net6.0\CSSequential.pdb
+D:\Codes\CSharp\CSSequential\obj\Debug\net6.0\CSSequential.genruntimeconfig.cache

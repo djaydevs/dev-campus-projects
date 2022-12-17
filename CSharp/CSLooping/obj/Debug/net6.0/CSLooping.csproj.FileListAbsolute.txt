@@ -1,0 +1,15 @@
+D:\Codes\CSharp\CSLooping\bin\Debug\net6.0\CSLooping.exe
+D:\Codes\CSharp\CSLooping\bin\Debug\net6.0\CSLooping.deps.json
+D:\Codes\CSharp\CSLooping\bin\Debug\net6.0\CSLooping.runtimeconfig.json
+D:\Codes\CSharp\CSLooping\bin\Debug\net6.0\CSLooping.dll
+D:\Codes\CSharp\CSLooping\bin\Debug\net6.0\ref\CSLooping.dll
+D:\Codes\CSharp\CSLooping\bin\Debug\net6.0\CSLooping.pdb
+D:\Codes\CSharp\CSLooping\obj\Debug\net6.0\CSLooping.csproj.AssemblyReference.cache
+D:\Codes\CSharp\CSLooping\obj\Debug\net6.0\CSLooping.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\CSharp\CSLooping\obj\Debug\net6.0\CSLooping.AssemblyInfoInputs.cache
+D:\Codes\CSharp\CSLooping\obj\Debug\net6.0\CSLooping.AssemblyInfo.cs
+D:\Codes\CSharp\CSLooping\obj\Debug\net6.0\CSLooping.csproj.CoreCompileInputs.cache
+D:\Codes\CSharp\CSLooping\obj\Debug\net6.0\CSLooping.dll
+D:\Codes\CSharp\CSLooping\obj\Debug\net6.0\ref\CSLooping.dll
+D:\Codes\CSharp\CSLooping\obj\Debug\net6.0\CSLooping.pdb
+D:\Codes\CSharp\CSLooping\obj\Debug\net6.0\CSLooping.genruntimeconfig.cache

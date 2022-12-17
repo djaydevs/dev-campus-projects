@@ -1,0 +1,15 @@
+D:\Codes\CSharp\CSSelection\bin\Debug\net6.0\CSSelection.exe
+D:\Codes\CSharp\CSSelection\bin\Debug\net6.0\CSSelection.deps.json
+D:\Codes\CSharp\CSSelection\bin\Debug\net6.0\CSSelection.runtimeconfig.json
+D:\Codes\CSharp\CSSelection\bin\Debug\net6.0\CSSelection.dll
+D:\Codes\CSharp\CSSelection\bin\Debug\net6.0\ref\CSSelection.dll
+D:\Codes\CSharp\CSSelection\bin\Debug\net6.0\CSSelection.pdb
+D:\Codes\CSharp\CSSelection\obj\Debug\net6.0\CSSelection.csproj.AssemblyReference.cache
+D:\Codes\CSharp\CSSelection\obj\Debug\net6.0\CSSelection.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\CSharp\CSSelection\obj\Debug\net6.0\CSSelection.AssemblyInfoInputs.cache
+D:\Codes\CSharp\CSSelection\obj\Debug\net6.0\CSSelection.AssemblyInfo.cs
+D:\Codes\CSharp\CSSelection\obj\Debug\net6.0\CSSelection.csproj.CoreCompileInputs.cache
+D:\Codes\CSharp\CSSelection\obj\Debug\net6.0\CSSelection.dll
+D:\Codes\CSharp\CSSelection\obj\Debug\net6.0\ref\CSSelection.dll
+D:\Codes\CSharp\CSSelection\obj\Debug\net6.0\CSSelection.pdb
+D:\Codes\CSharp\CSSelection\obj\Debug\net6.0\CSSelection.genruntimeconfig.cache
